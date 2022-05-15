@@ -44,17 +44,17 @@
           </ul>
         </nav>
         <ul class="header-contacts">
-          <li>
+          <li class="contacts-list">
             <a class="link header-mail" href="mailto:info@devstudio.com"
-              ><svg class="header-icon" width="16" heigth="12">
+              ><svg class="header-icon" width="16" height="12">
                 <use href="./sprite.svg#icon-mail"></use>
               </svg>
-              >info@devstudio.com</a
+              info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contacts-list">
             <a class="link header-phone" href="tel:+380961111111"
-              ><svg class="header-icon" width="10" heigth="16">
+              ><svg class="header-icon" width="10" height="16">
                 <use href="./sprite.svg#icon-phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -509,8 +509,9 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <ul class="container footer-container">
-        <li class="footer-list">
+      <div class="container footer-container">
+        <div class="footer-list">
+      
           <a class="link logo-footer" href="./index.html" lang="en"
             >Web<span class="logo-white">Studio</span></a
           >
@@ -533,11 +534,12 @@
                   >+38 099 111 11 11</a
                 >
               </li>
-            </ul>
+            
           </address>
-        </li>
+        </div>
         <!--Иконки социальных сетей-->
-        <li class="join-section">
+        
+          <div class="join-section">
           <h4 class="join">Присоединяйтесь</h4>
           <ul class="social-list link">
             <li class="social-item">
@@ -590,8 +592,8 @@
               </a>
             </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
